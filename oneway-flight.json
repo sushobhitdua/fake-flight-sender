@@ -1,0 +1,326 @@
+ {
+         "segments": [         {
+            "legs": [            {
+               "originCode": "DEL",
+               "originName": "Indira Gandhi Airport",
+               "originCityName": "Delhi",
+               "originCountryName": "India",
+               "destinationCode": "BOM",
+               "destinationName": "Mumbai",
+               "destinationCityName": "Mumbai",
+               "destinationCountryName": "India",
+               "airlineName": "Air Vistara",
+               "airlineCode": "UK",
+               "validatingAirlineCode": "UK",
+               "departureDate": "15 May 2017",
+               "departureTime": "06:00",
+               "arrivalDate": "15 May 2017",
+               "arrivalTime": "08:05",
+               "originTerminal": "3",
+               "destinationTerminal": "2",
+               "cabinClass": "O",
+               "layoverDuration": 0,
+               "duration": 125,
+               "arrivalAfterDays": 0,
+               "baggage":                {
+                  "baggageId": 0,
+                  "baggageUnits": "15 KG",
+                  "baggageQuantity": 1,
+                  "cabinBaggageUnits": null,
+                  "cabinBaggageQuantity": 0,
+                  "description": "15 KG"
+               },
+               "noOfSeatsAvailable": 5,
+               "flightNumber": "975",
+               "airCraftType": "320",
+               "handBaggage": false
+            }],
+            "index": 0,
+            "originCode": "DEL",
+            "originName": "Indira Gandhi Airport",
+            "destinationCode": "BOM",
+            "destinationName": "Mumbai",
+            "departureDate": "15 May 2017",
+            "departureTime": "06:00",
+            "arrivalDate": "15 May 2017",
+            "arrivalTime": "08:05",
+            "duration": 125,
+            "noOfStops": 0,
+            "legCount": 1,
+            "airlines": [            {
+               "code": "UK",
+               "name": "Air Vistara",
+               "flightNumber": "975"
+            }],
+            "baggageIncluded": true,
+            "mealsIncluded": false
+         }],
+         "uniqueId": "FUKOUTBOUNDS1DELBOML1OUK975DEL06:00BOM08:05",
+         "airlineCode": "UK",
+         "validatingAirlineCode": "UK",
+         "serviceClassCode": null,
+         "international": false,
+         "priceChanged": false,
+         "lcc": false,
+         "multiCarrier": false,
+         "fareType": "FULL_LUGGAGE",
+         "flightSearchType": "ONEWAY",
+         "flightAvailable": false,
+         "duration": 0,
+         "noOfSeats": 5,
+         "direction": "OUTBOUND",
+         "supplierName": "TEKTRAVELV10",
+         "extendedData": {"resultIndex": "OB1"},
+         "fareTypeData": {"FULL_LUGGAGE":          {
+            "fareTypeID": null,
+            "flightFare":             {
+               "currency": "INR",
+               "baseFare": 9106,
+               "fareBreakup":                {
+                  "SUPPLIER_DISCOUNT": 0,
+                  "YQTax": 0,
+                  "YR": 1236,
+                  "PSF": 0,
+                  "UDF": 0,
+                  "JNTax": 0,
+                  "INTax": 0,
+                  "TransactionFee": 0
+               },
+               "extendedFareData":                {
+                  "OtherCharges": 41.76,
+                  "ChargeBU":                   {
+                     "OTHERCHARGE": 0,
+                     "CONVENIENCECHARGE": 0,
+                     "TBOMARKUP": 41.76
+                  },
+                  "PublishedFare": 13865.76,
+                  "CommissionEarned": 288,
+                  "PLBEarned": 0,
+                  "IncentiveEarned": 0,
+                  "OfferedFare": 13577.76,
+                  "TdsOnCommission": 57.6,
+                  "TdsOnPLB": 0,
+                  "TdsOnIncentive": 0,
+                  "ServiceFee": 0
+               },
+               "grossTotal": 10342,
+               "displayFareBreakup":                {
+                  "SUPPLIER_DISCOUNT": 0,
+                  "YQTax": 0,
+                  "YR": 1236,
+                  "PSF": 0,
+                  "UDF": 0,
+                  "JNTax": 0,
+                  "INTax": 0,
+                  "TransactionFee": 0
+               },
+               "totalPrice": 10342,
+               "totalTax": 1236
+            },
+            "travellerFare":             {
+               "CHD":                {
+                  "currency": "INR",
+                  "baseFare": 1800,
+                  "fareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "extendedFareData": {},
+                  "grossTotal": 1800,
+                  "displayFareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "totalPrice": 1800,
+                  "totalTax": 0
+               },
+               "ADT":                {
+                  "currency": "INR",
+                  "baseFare": 1800,
+                  "fareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "extendedFareData": {},
+                  "grossTotal": 1800,
+                  "displayFareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "totalPrice": 1800,
+                  "totalTax": 0
+               },
+               "INF":                {
+                  "currency": "INR",
+                  "baseFare": 953,
+                  "fareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "extendedFareData": {},
+                  "grossTotal": 953,
+                  "displayFareBreakup":                   {
+                     "YQTax": 0,
+                     "AdditionalTxnFeeOfrd": 0,
+                     "AdditionalTxnFeePub": 0
+                  },
+                  "totalPrice": 953,
+                  "totalTax": 0
+               }
+            },
+            "extendedData": {"resultIndex": "OB1"},
+            "baggage": null,
+            "refundable": false
+         }},
+         "groupFareKey": "UK975DEL06:00BOM08:05-TEKTRAVELV10",
+         "travellerFare":          {
+            "CHD":             {
+               "currency": "INR",
+               "baseFare": 1800,
+               "fareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "extendedFareData": {},
+               "grossTotal": 1800,
+               "displayFareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "totalPrice": 1800,
+               "totalTax": 0
+            },
+            "ADT":             {
+               "currency": "INR",
+               "baseFare": 1800,
+               "fareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "extendedFareData": {},
+               "grossTotal": 1800,
+               "displayFareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "totalPrice": 1800,
+               "totalTax": 0
+            },
+            "INF":             {
+               "currency": "INR",
+               "baseFare": 953,
+               "fareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "extendedFareData": {},
+               "grossTotal": 953,
+               "displayFareBreakup":                {
+                  "YQTax": 0,
+                  "AdditionalTxnFeeOfrd": 0,
+                  "AdditionalTxnFeePub": 0
+               },
+               "totalPrice": 953,
+               "totalTax": 0
+            }
+         },
+         "flightFare":          {
+            "currency": "INR",
+            "baseFare": 9106,
+            "fareBreakup":             {
+               "SUPPLIER_DISCOUNT": 0,
+               "YQTax": 0,
+               "YR": 1236,
+               "PSF": 0,
+               "UDF": 0,
+               "JNTax": 0,
+               "INTax": 0,
+               "TransactionFee": 0
+            },
+            "extendedFareData":             {
+               "OtherCharges": 41.76,
+               "ChargeBU":                {
+                  "OTHERCHARGE": 0,
+                  "CONVENIENCECHARGE": 0,
+                  "TBOMARKUP": 41.76
+               },
+               "PublishedFare": 13865.76,
+               "CommissionEarned": 288,
+               "PLBEarned": 0,
+               "IncentiveEarned": 0,
+               "OfferedFare": 13577.76,
+               "TdsOnCommission": 57.6,
+               "TdsOnPLB": 0,
+               "TdsOnIncentive": 0,
+               "ServiceFee": 0
+            },
+            "grossTotal": 10342,
+            "displayFareBreakup":             {
+               "SUPPLIER_DISCOUNT": 0,
+               "YQTax": 0,
+               "YR": 1236,
+               "PSF": 0,
+               "UDF": 0,
+               "JNTax": 0,
+               "INTax": 0,
+               "TransactionFee": 0
+            },
+            "totalPrice": 10342,
+            "totalTax": 1236
+         },
+         "offeredFlightFare":          {
+            "currency": "INR",
+            "baseFare": 9106,
+            "fareBreakup":             {
+               "SUPPLIER_DISCOUNT": 0,
+               "YQTax": 0,
+               "YR": 1236,
+               "PSF": 0,
+               "UDF": 0,
+               "JNTax": 0,
+               "INTax": 0,
+               "TransactionFee": 0
+            },
+            "extendedFareData":             {
+               "OtherCharges": 41.76,
+               "ChargeBU":                {
+                  "OTHERCHARGE": 0,
+                  "CONVENIENCECHARGE": 0,
+                  "TBOMARKUP": 41.76
+               },
+               "PublishedFare": 13865.76,
+               "CommissionEarned": 288,
+               "PLBEarned": 0,
+               "IncentiveEarned": 0,
+               "OfferedFare": 13577.76,
+               "TdsOnCommission": 57.6,
+               "TdsOnPLB": 0,
+               "TdsOnIncentive": 0,
+               "ServiceFee": 0
+            },
+            "grossTotal": 10342,
+            "displayFareBreakup":             {
+               "SUPPLIER_DISCOUNT": 0,
+               "YQTax": 0,
+               "YR": 1236,
+               "PSF": 0,
+               "UDF": 0,
+               "JNTax": 0,
+               "INTax": 0,
+               "TransactionFee": 0
+            },
+            "totalPrice": 10342,
+            "totalTax": 1236
+         },
+         "refundable": false
+      }

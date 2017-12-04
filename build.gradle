@@ -1,0 +1,57 @@
+
+buildscript {
+	ext {
+		springBootVersion = '1.5.2.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE'){
+    	exclude module : 'spring-boot-starter-logging'
+		exclude module: 'logback-classic'
+    }
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.7'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.7'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.7'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-jcl', version: '2.7'
+    // Added for async logging
+    compile group: 'com.lmax', name: 'disruptor', version: '3.3.6'
+    runtime group: 'com.lmax', name: 'disruptor', version: '3.3.6'
+
+    compile group: 'commons-httpclient', name: 'commons-httpclient', version: '3.1'
+	compile group: 'joda-time', name: 'joda-time', version: '2.3'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.7'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.8.7'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.7'
+	compile group: 'org.jmockit', name: 'jmockit', version: '1.8'
+
+	compile 'javax.validation:validation-api:1.1.0.Final'
+    testCompile 'junit:junit:4.12'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.2.RELEASE'
+	compile project(':supplier-commons')
+    runtime project(':supplier-commons') 
+}
+
+springBoot {
+    executable = true
+}
